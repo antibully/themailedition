@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+            <script>
+        function rooftop() {
+            var url = "https://professionalnoob2302.github.io/rooftop-snipers/index.html";
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+        </script>
     <title>The Mail Edition</title>
   </head>
   <body>
-    <h1>The Mail Edition</h1
-    <img src="rooftop-snipers-logo.jpg">
-    <a href="https://professionalnoob2302.github.io/rooftop-snipers/index.html">Rooftop Snipers</a>
+    <h1>The Mail Edition</h1>
+    <button onclick='rooftop()'>Rooftop Snipers</button>
   </body>
 </html>
