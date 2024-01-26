@@ -1,1 +1,1 @@
-it has games and stuff
+The mail edition was named what it was for its original purpose of being a website of mainly requests. This was originally also made on google sites, until I quit for a long time until comming back to this on github.
