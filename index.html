@@ -8,9 +8,30 @@
         }
             </script>
         <style>
+                          a {
+      font-size:14px;
+      color:black;
+      background-color:white;
+      cursor:pointer;
+      right: 10px;
+      bottom: 10px;
+      padding: 5px 20px;
+      transition-duration: .4s;
+      border: 5px solid green;
+      border-radius: 5px;
+      }
+      a:hover {
+      background-color:#00bb00;
+      box-shadow:0 4px #000000;
+      }
+      a:active {
+      transition-duration: .2s;
+      background-color:#009900;
+      border: 5px solid #007700;
+      box-shadow:0 2px #000000;
+      }
                   button {
       cursor:pointer;
-      position: absolute; 
       right: 10px;
       bottom: 10px;
       padding: 5px 20px;
@@ -106,6 +127,8 @@
       <img onclick="twenty()" src="twenty.png">
       <img onclick="rooftop()" src="rooftop-snipers-logo.jpg">
       <img onclick="slope()" src="slope.jpeg">
+      <br>
       <button onclick="copyText()">Share</button>
+      <a target="_blank" href="https://forms.gle/cS7GXkha4CA4DYec7">Request a game</a>
     </body>
 </html>
