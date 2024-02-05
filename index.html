@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+          	<script>
+        function copyText() {
+            navigator.clipboard.writeText
+                ("https://bit.ly/themailedition");
+        }
+            </script>
         <style>
+                  button {
+      cursor:pointer;
+      position: absolute; 
+      bottom: 10px;
+      padding: 5px 20px;
+      transition-duration: .4s;
+      border: 5px solid green;
+      border-radius: 5px;
+      }
+      button:hover {
+      background-color:#00bb00;
+      box-shadow:0 4px #006600;
+      }
+      button:active {
+      transition-duration: .2s;
+      background-color:#009900;
+      border: 5px solid #007700;
+      box-shadow:0 2px #006600;
+      }
             img {
             border: 10px solid black;
             cursor:pointer;
@@ -77,8 +102,9 @@
   </head>
   <body>
     <h1>The Mail Edition</h1>
-      <div><img onclick="twenty()" src="twenty.png"><br>2048</div>
-      <div><img onclick="rooftop()" src="rooftop-snipers-logo.jpg"><br>Rooftop Snipers</div>
-      <div><img onclick="slope()" src="slope.jpeg"><br>Slope</div>
+      <img onclick="twenty()" src="twenty.png">
+      <img onclick="rooftop()" src="rooftop-snipers-logo.jpg">
+      <img onclick="slope()" src="slope.jpeg">
+      <button onclick="copyText()">Share</button>
     </body>
 </html>
