@@ -6,6 +6,19 @@
             navigator.clipboard.writeText
                 ("https://bit.ly/themailedition");
         }
+                                            function retrobowl() {
+            var url = "https://professionalnoob2302.github.io/themailedition/retro--bowl-main/index.html";
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
                             function rooftop() {
             var url = "https://professionalnoob2302.github.io/themailedition/rooftop-snipers-main/index.html";
             var win = window.open();
@@ -143,6 +156,7 @@ bottom: 5px;
       <img title="Rooftop Snipers is a pixel-style shooting game where you have to shoot famous characters off of the roof. You can play in single or two-player mode, against the Joker, Mr. T, and John Wayne. During each duel, you have to jump forwards and backwards to dodge bullets. Look out for the tomahawks and beach balls in Rooftop Snipers." onclick="rooftop()" src="rooftop-snipers-logo.jpg">
       <img title="Slope is a fantastic speed run game where you can drive a ball rolling on tons of slopes and obstacles. See how far you can go in this endless course!" onclick="slope()" src="slope.jpeg">
      <img title="Flappy Bird is an arcade-style game in which the player controls the bird which moves persistently to the right" onclick="bird()" src="bird.png">
+    <img title="In Retro Bowl, the player controls the team's offense while also acting as the team's general manager." onclick="retrobowl()" src="retrobowl.png">
       <br>
       <button title="Copy link to clipboard" onclick="copyText()">Share</button>
       <a target="_blank" href="https://forms.gle/cS7GXkha4CA4DYec7">Request a game</a>
